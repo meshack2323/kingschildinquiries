@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    background: #f4f6f9;
+}
+
+/* Header */
+header {
+    background: #003366;
+    color: orange;
+    text-align: center;
+    padding: 20px;
+	font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+.logo {
+    width: 80px;
+}
+
+/* Navigation */
+nav {
+    background: #0059b3;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a {
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background: #003366;
+}
+
+/* Hero section */
+.hero {
+    background: #e6f0ff;
+    padding: 40px;
+    text-align: center;
+}
+
+/* Content cards */
+.content {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    width: 280px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+    background: #003366;
+    color: orange;
+    text-align: center;
+    padding: 10px;
+	margin-top:0;
+}
+
+.donate-btn{
+	background: #ff9800;
+	color: white !important;
+	border-radius: 4px;
+	font-weight: bold;
+}
+
+.donate-btn:hover{
+	background: #e68900;
+}
+
+h3{
+	background-color: orange;
+}
+
+htm, body {
+	height: 100%
+	margin:0
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+main{
+	flex: 1
+}
+
+.hero {
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+        ),
+        url("school.jpg"); /* SAME folder as index.html */
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-content {
+    color: white;
+    padding: 20px;
+}

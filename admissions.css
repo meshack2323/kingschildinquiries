@@ -1,0 +1,140 @@
+/* Reset basic spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page background */
+body {
+    background-color: navy;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Main heading */
+h1 {
+    color: orange;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Sub headings */
+h2 {
+    color: orange;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Intro paragraph */
+p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+/* Form container */
+.admissions-form {
+    background-color: #0b2a4a; /* slightly lighter navy */
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Google form iframe */
+.admissions-form iframe {
+    width: 100%;
+    height: 1200px;
+    border: none;
+    background-color: white;
+    border-radius: 6px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .admissions-form {
+        padding: 10px;
+    }
+}
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Make footer stick to bottom */
+body {
+    background-color: navy;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Headings */
+h1, h2 {
+    color: orange;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Paragraphs */
+p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Main content grows to push footer down */
+.admissions-form {
+    background-color: #0b2a4a;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 1000px;
+    margin: auto;
+    flex: 1;
+}
+
+/* Google Form */
+.admissions-form iframe {
+    width: 100%;
+    height: 1200px;
+    border: none;
+    background-color: white;
+    border-radius: 6px;
+}
+
+/* Footer */
+.footer {
+    background-color: #001f3f; /* dark navy */
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+}
+
+.admissions-form {
+    flex: 1;
+    overflow-y: auto;
+}
+
+.admissions-form iframe {
+    height: 1100px;
+}
